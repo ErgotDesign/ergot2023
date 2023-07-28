@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	-ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+@layer components {
+	.icon {
+		@apply flex items-center justify-center w-8 h-8 rounded-full text-ergot bg-white;
+	}
+}
